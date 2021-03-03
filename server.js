@@ -10,7 +10,7 @@ if (process.env.NODE_ENV === "production"){
   app.use(express.status("client/build"));
 }
 
-app.user("/api", require("./routes/apiRoutes"));
+app.use("/api", require("./routes/apiRoutes"));
 
 
 app.listen(PORT, () => console.log(`listening at localhost:${PORT}`));
