@@ -19,5 +19,6 @@
   "homepage": "https://github.com/greenHermes/PlaylistifyReact#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "proxy": "http://localhost:3000/"
 }
