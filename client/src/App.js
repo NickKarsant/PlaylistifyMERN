@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 function App() {
-  const [state, setState] = useState("");
+  const [state, setState] = useState("not connected to backend");
 
   const fetchData = async () => {
     try {
